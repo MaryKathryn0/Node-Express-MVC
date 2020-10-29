@@ -15,7 +15,7 @@ app.use(express.json());
 const controllers = require("./controllers");
 
 app.use("/", controllers.html);
-app.use("/api/cats", controllers.cat);
+app.use("/api/burger", controllers.cat);
 
 app.listen(PORT, function() {
   console.log("App now listening at localhost:" + PORT);
